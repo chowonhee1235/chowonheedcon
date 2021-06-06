@@ -1,0 +1,96 @@
+
+{
+	"config": {
+		"preset": "default",
+		"theme": "jsassist",
+		"allowExternalSource": false,
+		"allowEmoticon": true,
+		"ignoreMQEmoticon": true,
+		"ignoreNickname": "()",
+		"enableTwitchEmoticon": true,
+		"TwitchEmoticonsize": "1.0",
+		"streamer": {
+			"twitch": "조원희_",
+			"kakaopot": "",
+			"youtube": ""
+		},
+		"chat": {
+			"platformIcon": true,
+			"platform": "all",
+			"animation": "fade",
+			"chatFade": 0,
+			"font": "Jeju Gothic",
+			"fontUsernameSize": 14,
+			"fontUsernameColor": "255, 255, 255",
+			"fontChatSize": 16,
+			"fontChatColor": "255, 255, 255",
+			"backgroundColor": "255, 255, 255",
+			"backgroundAlpha": 0,
+			"chatBackgroundColor": "200, 200, 200",
+			"chatBackgroundAlpha": 25
+		},
+		"themes": {
+			"jsassist": {
+				"css": [],
+				"js": [],
+				"image": {
+					"streamer": "",
+					"moderator": ""
+				}
+			}
+		}
+	},
+	"plugins": {
+		"command": {
+			"use": false
+		},
+		"dccon": {
+			"use": true,
+			"config": {
+				"address": "https://gist.githubusercontent.com/chowonhee1235/9065be102936eda0f6ed45de2e72c79b/raw/3ddc4c4ad33b5ab6c41d56af60f9ddf189d24fc3/chowonhee1235opdccon",
+				"twitch": "https://cdn.rawgit.com/Lastorder-DC/dccon/v180125/global.json",
+				"twitch_sub": "https://cdn.rawgit.com/Lastorder-DC/dccon/v180125/sub.json"
+			}
+		},
+		"style": {
+			"use": true
+		},
+		"replace" : {
+			"use":  false,
+			"config": {
+				"replace_list": {
+					"": "",
+					"": ""
+				}
+			}
+		},
+		"block" : {
+			"use": false,
+			"config": {
+				"block_list": {
+					"": "keyword",
+					"": "nickname",
+				        "": "keyword",
+					"": "nickname"
+				}
+			}
+		}
+	},
+	"provider": {
+		"JSAssist": {
+			"use": true,
+			"config": {
+				"oauth": "uifxbct7exi7i293me0lzsuk3rtd7h",
+				"do_not_use_tapic": false,
+				"do_not_use_jsassist":true,
+				"channelname": "chowonhee1235"
+			}
+		},
+		"mixer": {
+			"use": false,
+			"config": {
+				"channelid"":
+			}
+		}
+	}
+}
